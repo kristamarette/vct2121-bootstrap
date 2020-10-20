@@ -1,0 +1,42 @@
+.container-fluid nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper {
+  background-color: red;
+  height: 20vh;
+}
+
+div:nth-child(2) {
+  height: 20vh;
+  background-color: blue;
+}
+
+div:nth-child(3) {
+  height: 20vh;
+  background-color: cyan;
+}
+
+div:nth-child(4) {
+  height: 20vh;
+  background-color: green;
+}
+
+div:nth-child(5) {
+  height: 20vh;
+  background-color: purple;
+}
+
+div.container-xl {
+  height: 20vh;
+  background-color: rgba(7, 163, 242, 0.2);
+}
+/*# sourceMappingURL=style.css.map */

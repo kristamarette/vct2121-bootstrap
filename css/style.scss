@@ -1,0 +1,77 @@
+
+.container-fluid nav {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wrapper {
+    background-color: red;
+    height: 20vh;
+    // bootstrap css override
+    // padding-right: 0;
+    // padding-left: 0;
+}
+
+div:nth-child(2) {
+    height : 20vh;
+    background-color: blue;
+}
+div:nth-child(3) {
+    height : 20vh;
+    background-color: cyan;
+}
+div:nth-child(4) {
+    height : 20vh;
+    background-color: green;
+}
+div:nth-child(5) {
+    height : 20vh;
+    background-color: purple;
+}
+div:nth-last-child(6) {
+    height : 20vh;
+    background-color: #07A3F2;
+}
+
+//------------Z-INDEX VALUES-----------
+$zindex-dropdown:          1000 !default;
+$zindex-sticky:            1020 !default;
+$zindex-fixed:             1030 !default;
+$zindex-modal-backdrop:    1040 !default;
+$zindex-modal:             1050 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+
+
+//------------MEDIA QUERIES Max-width-------------
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+//------------MEDIA QUERIES Min-width-------------
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
